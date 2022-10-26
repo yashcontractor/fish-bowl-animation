@@ -385,36 +385,42 @@ function render() {
                     
 
         gRotate(-20*Math.sin(20*TIME), 0, 1, 0);  
-        gTranslate(0, 0.25, 2);
-        gPush(); {      //drawing the eyes of the fish (left white eye)
-            gTranslate(2, 0, 0);
+        gTranslate(0, 0.25, 2.5);
+        gPush();
+        {
             gScale(0.1, 0.1, 0.1);
+            gTranslate(2, 0, 0);
             setColor(vec4(1, 1, 1, 1));
             drawSphere();
-        } gPop();
-        
-        gPush(); {      //drawing the eyes of the fish (left black eye)
-            gTranslate(4, 0, 1.5);
+        }
+        gPop();
+        gPush();
+        {
             gScale(0.05, 0.05, 0.05);
+            gTranslate(4, 0, 1.5);
             setColor(vec4(0, 0, 0, 1));
             drawSphere();
-        } gPop();
+        }
+        gPop();
         
-
-        gTranslate(-0.4, 0, 0);
-        gPush(); {      //drawing the eyes of the fish (right white eye)
-            gTranslate(2, 0, 0);
+            // left one
+            gTranslate(-0.4, 0, 0);
+        gPush();
+        {
             gScale(0.1, 0.1, 0.1);
+            gTranslate(2, 0, 0);
             setColor(vec4(1, 1, 1, 1));
             drawSphere();
-        } gPop();
-        
-        gPush(); {      //drawing the eyes of the fish (right black eye)
-            gTranslate(4, 0, 1.5);
+        }
+        gPop();
+        gPush();
+        {
             gScale(0.05, 0.05, 0.05);
+            gTranslate(4, 0, 1.5);
             setColor(vec4(0, 0, 0, 1));
             drawSphere();
-        } gPop();
+        }
+        gPop();
     
     }	
 
