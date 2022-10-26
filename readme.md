@@ -5,7 +5,7 @@ Wrote a JavaScript program that animates a fish rotating around moving seaweeds 
 <h1 align="center">Example</h1>
 
 <p align="center">
-  ![](https://github.com/yashcontractor/fish-bowl-animation/blob/main/Video.gif)
+  <img src="https://github.com/yashcontractor/fish-bowl-animation/blob/main/Video.gif" />
 </p>
 
 <!-- ![](https://github.com/yashcontractor/fish-bowl-animation/blob/main/Video.gif) -->
